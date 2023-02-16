@@ -87,7 +87,7 @@ df2 = csv.reader(open('t-data.csv', 'r'))
 data2 = [ w for w in df2]
 mat3 = np.array(data2)
 mat4 = mat3[1:]                      # 見出し行を外す
-t_data = mat4.astype(np.int)  # float変換
+t_data = mat4.astype(np.int64)  # float変換
 
 maxlen = 80              # 入力系列数
 n_in = x_data.shape[1]   # 学習データ（＝入力）の列数
