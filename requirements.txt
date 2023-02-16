@@ -1,3 +1,4 @@
 streamlit
 keras
 pandas_datareader
+tensorflow
