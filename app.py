@@ -79,7 +79,7 @@ data1 = [ v for v in df1]
 mat = np.array(data1)
 # print(mat)
 mat2 = mat[1:]  # 見出し行を外す
-x_data = mat2.astype(np.float)  # 2float変換
+x_data = mat2.astype(np.float64)  # 2float変換
 
 # ラベルデータ
 # 1％以上／0％以上／-1％以上／-1％未満
