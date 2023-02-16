@@ -1,6 +1,6 @@
 #日経平均株価をPythonのライブラリから自動取得して、予測するプログラム
 #LSTMで学習済みのモデル"model.h5"ファイルを使用している。
-#import tensorflow as tf
+import tensorflow as tf
 import streamlit as st
 import numpy as np
 #import matplotlib.pyplot as plt
